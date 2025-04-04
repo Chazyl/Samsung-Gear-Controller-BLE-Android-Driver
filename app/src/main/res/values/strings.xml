@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Samsung Gear Controller BLE Android Driver</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">Enables the Samsung Gear Controller to function as a system-wide input device, mapping controller inputs to Android actions.</string>
+
+    <!-- Main Activity -->
+    <string name="paired_devices">Paired Devices</string>
+    <string name="no_devices_found">No Samsung Gear Controllers found</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="device_mac">MAC Address: %1$s</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+
+    <!-- Controller Status -->
+    <string name="button_volume_up">Volume Up: %1$s</string>
+    <string name="button_volume_down">Volume Down: %1$s</string>
+    <string name="button_home">Home: %1$s</string>
+    <string name="button_back">Back: %1$s</string>
+    <string name="button_trigger">Trigger: %1$s</string>
+    <string name="touchpad_click">Touchpad Click: %1$s</string>
+    <string name="mouse_movement">Mouse Movement: %1$s</string>
+
+    <!-- Permissions -->
+    <string name="permission_bluetooth_rationale">Bluetooth permission is required to connect to the Samsung Gear Controller.</string>
+    <string name="permission_location_rationale">Location permission is required to scan for Bluetooth devices.</string>
+    <string name="permission_overlay_rationale">Overlay permission is required to display the mouse pointer.</string>
+    <string name="permission_accessibility_rationale">Accessibility permission is required to simulate inputs from the controller.</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="enable_overlay">Enable Overlay Permission</string>
+
+    <!-- Service Notification -->
+    <string name="notification_title">Samsung Gear Controller Active</string>
+    <string name="notification_text">Connected to %1$s</string>
+    <string name="notification_channel_name">Controller Service</string>
+    <string name="notification_channel_description">Keeps the Samsung Gear Controller connected in the background</string>
+</resources>
